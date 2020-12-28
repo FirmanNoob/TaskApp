@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: yellow;
+    border: none;
+    transition:.2s cubic-bezier(.785,.135,.15,.86) 0s;
+  }
+  
+  button.active {
+    background-color: #3e8e41;
+  }

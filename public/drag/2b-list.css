@@ -1,0 +1,17 @@
+#sortlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#sortlist li {
+  margin: 10px 5px;
+  padding: 5px;
+  border: 1px solid #333;
+  background: #eaeaea;
+}
+#sortlist li.hint {
+  background: #fea;
+}
+#sortlist li.active {
+  background: #ffd4d4;
+}
