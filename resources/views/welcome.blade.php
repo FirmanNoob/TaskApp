@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
-    <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{secure_asset('assets/img/favicon.png')}}" rel="icon">
+    <link href="{{secure_asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Dark Mode -->
     <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
@@ -22,15 +22,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-    <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{secure_asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{secure_asset('assets/css/style.css') }}" rel="stylesheet">
 
     <!-- Jquary Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -871,22 +871,22 @@
     <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ asset('assets/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/venobox/venobox.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
-    <script src="{{ asset('assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/php-email-form/validate.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/venobox/venobox.min.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ secure_asset('assets/vendor/aos/aos.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="{{ asset('typed.min.js')}}" type="text/javascript"></script>
+    <script src="{{ secure_asset('typed.min.js')}}" type="text/javascript"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ asset('assets/js/main.js')}}"></script>
+    <script src="{{ secure_asset('assets/js/main.js')}}"></script>
 
     <!-- Typed Font  -->
-    <script src="{{ asset('assets/js/typed.js')}}"></script>
+    <script src="{{ secure_asset('assets/js/typed.js')}}"></script>
 
     <!-- Dark Mode -->
     <script>
