@@ -32,7 +32,6 @@
     <!-- Template Main CSS File -->
     <link href="{{secure_asset('assets/css/style.css') }}" rel="stylesheet">
 
-    @laravelPWA
     <!-- Jquary Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -44,6 +43,7 @@
         }
     </script>
 
+    @laravelPWA
     <!-- =======================================================
   * Template Name: Scaffold - v2.1.0
   * Template URL: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/
