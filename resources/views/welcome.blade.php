@@ -8,6 +8,7 @@
     <title>Scaffold Bootstrap Template - Index</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- Favicons -->
     <link href="{{secure_asset('assets/img/favicon.png')}}" rel="icon">
