@@ -5,7 +5,7 @@ return [
     'manifest' => [
         'name' => env('UjianPraktek', 'UjianPraktek'),
         'short_name' => 'PWA',
-        'start_url' => '/',
+        'start_url' => 'https://ujianpraktek.herokuapp.com',
         'background_color' => '#ffffff',
         'theme_color' => '#000000',
         'display' => 'standalone',
