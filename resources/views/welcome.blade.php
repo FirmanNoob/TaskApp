@@ -126,7 +126,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                    <img src="{{asset('assets/img/hero-img.png')}}" class="w-9/12 ml-16" alt="">
+                    <img src="{{secure_asset('assets/img/hero-img.png')}}" class="w-9/12 ml-16" alt="">
                 </div>
             </div>
         </div>
@@ -150,49 +150,49 @@
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in">
-                        <img src="{{ asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="{{ asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-                        <img src="{{ asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="{{ asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-                        <img src="{{ asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="{{ asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-                        <img src="{{ asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
                     <div class="client-logo">
-                        <img src="{{ asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
+                        <img src="{{ secure_asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -281,7 +281,7 @@
                                 <figure>
                                     <!-- <img src="{{ asset('assets/img/features-1.png')}}" alt="" class="img-fluid"> -->
                                     <video width="550px" class="video" controls>
-                                        <source src="{{ asset('assets/img/2.mp4') }}" type="video/mp4">
+                                        <source src="{{ secure_asset('assets/img/2.mp4') }}" type="video/mp4">
                                     </video>
                                 </figure>
                             </div>
@@ -289,18 +289,18 @@
                                 <figure>
                                     <!-- <img src="{{ asset('assets/img/features-2.png')}}" alt="" class="img-fluid"> -->
                                     <video width="550px" class="video" controls>
-                                        <source src="{{ asset('assets/img/3.mp4') }}" type="video/mp4">
+                                        <source src="{{ secure_asset('assets/img/3.mp4') }}" type="video/mp4">
                                     </video>
                                 </figure>
                             </div>
                             <div class="tab-pane" id="tab-3">
                                 <figure>
-                                    <img src="{{ asset('assets/img/features-3.png')}}" alt="" class="img-fluid">
+                                    <img src="{{ secure_asset('assets/img/features-3.png')}}" alt="" class="img-fluid">
                                 </figure>
                             </div>
                             <div class="tab-pane" id="tab-4">
                                 <figure>
-                                    <img src="{{ asset('assets/img/features-4.png')}}" alt="" class="img-fluid">
+                                    <img src="{{ secure_asset('assets/img/features-4.png')}}" alt="" class="img-fluid">
                                 </figure>
                             </div>
                         </div>
@@ -445,7 +445,7 @@
                             quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ asset('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                     </div>
@@ -457,7 +457,7 @@
                             quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ asset('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                     </div>
@@ -469,7 +469,7 @@
                             labore quem eram duis noster aute amet eram fore quis sint minim.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ asset('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                     </div>
@@ -481,7 +481,7 @@
                             dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ asset('assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                     </div>
@@ -493,7 +493,7 @@
                             labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ asset('assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
                     </div>
@@ -518,7 +518,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in">
-                            <div class="pic"><img src="{{ asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>Walter White</h4>
                                 <span>Chief Executive Officer</span>
@@ -534,7 +534,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="{{ asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>Sarah Jhonson</h4>
                                 <span>Product Manager</span>
@@ -550,7 +550,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="{{ asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>William Anderson</h4>
                                 <span>CTO</span>
@@ -584,49 +584,49 @@
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in">
-                            <img src="{{ asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-                            <img src="{{ asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-                            <img src="{{ asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="{{ asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-                            <img src="{{ asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="{{ asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-                            <img src="{{ asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
                         <div class="client-logo">
-                            <img src="{{ asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
+                            <img src="{{ secure_asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
