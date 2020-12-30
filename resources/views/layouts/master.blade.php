@@ -13,7 +13,7 @@
 
   <!-- Bootstrap -->
   <link href="cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-  <link href="{{secure_asset('templatesecure_/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{secure_asset('template/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
   <!-- Font Awesome -->
   <link href="{{secure_asset('template/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
   <!-- NProgress -->
@@ -67,28 +67,28 @@
   </div>
 
   <!-- jQuery -->
-  <script src="{{secure_asset('template/vendors/jquery/dist/jquery.min.js')}}"></script>
+  <script src="{{asset('template/vendors/jquery/dist/jquery.min.js')}}"></script>
   <!-- Bootstrap -->
-  <script src="{{secure_asset('template/vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('template/vendors/bootstrap/dist/js/bootstrap.bundle.min.js')}}"></script>
   <!-- FastClick -->
-  <script src="{{secure_asset('template/vendors/fastclick/lib/fastclick.js')}}"></script>
+  <script src="{{asset('template/vendors/fastclick/lib/fastclick.js')}}"></script>
   <!-- NProgress -->
-  <script src="{{secure_asset('template/vendors/nprogress/nprogress.js')}}"></script>
+  <script src="{{asset('template/vendors/nprogress/nprogress.js')}}"></script>
   <!-- Chart.js -->
-  <script src="{{secure_asset('template/vendors/Chart.js/dist/Chart.min.js')}}"></script>
+  <script src="{{asset('template/vendors/Chart.js/dist/Chart.min.js')}}"></script>
   <!-- gauge.js -->
-  <script src="{{secure_asset('template/vendors/gauge.js/dist/gauge.min.js')}}"></script>
+  <script src="{{asset('template/vendors/gauge.js/dist/gauge.min.js')}}"></script>
   <!-- bootstrap-progressbar -->
-  <script src="{{secure_asset('template/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js')}}"></script>
+  <script src="{{asset('template/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js')}}"></script>
   <!-- iCheck -->
-  <script src="{{secure_asset('template/vendors/iCheck/icheck.min.js')}}"></script>
+  <script src="{{asset('template/vendors/iCheck/icheck.min.js')}}"></script>
   <!-- Skycons -->
-  <script src="{{secure_asset('template/vendors/skycons/skycons.js')}}"></script>
+  <script src="{{asset('template/vendors/skycons/skycons.js')}}"></script>
   <!-- FullCalendar -->
-  <script src="{{secure_asset('template/vendors/moment/min/moment.min.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/fullcalendar/dist/fullcalendar.min.js')}}"></script>
+  <script src="{{asset('template/vendors/moment/min/moment.min.js')}}"></script>
+  <script src="{{asset('template/vendors/fullcalendar/dist/fullcalendar.min.js')}}"></script>
   <!-- Flot -->
-  <script src="{{secure_asset('template/vendors/Flot/jquery.flot.js')}}"></script>
+  <script src="{{asset('template/vendors/Flot/jquery.flot.js')}}"></script>
   <script src="{{secure_asset('template/vendors/Flot/jquery.flot.pie.js')}}"></script>
   <script src="{{secure_asset('template/vendors/Flot/jquery.flot.time.js')}}"></script>
   <script src="{{secure_asset('template/vendors/Flot/jquery.flot.stack.js')}}"></script>
