@@ -3,9 +3,9 @@
 @section('header')
 <!-- <link href="/css/app.css" rel="stylesheet"> -->
 <!-- PNotify -->
-<link href="{{asset('template/vendors/pnotify/dist/pnotify.css')}}" rel="stylesheet">
-<link href="{{asset('template/vendors/pnotify/dist/pnotify.buttons.css')}}" rel="stylesheet">
-<link href="{{asset('template/vendors/pnotify/dist/pnotify.nonblock.css')}}" rel="stylesheet">
+<link href="{{secure_asset('template/vendors/pnotify/dist/pnotify.css')}}" rel="stylesheet">
+<link href="{{secure_asset('template/vendors/pnotify/dist/pnotify.buttons.css')}}" rel="stylesheet">
+<link href="{{secure_asset('template/vendors/pnotify/dist/pnotify.nonblock.css')}}" rel="stylesheet">
 @stop
 
 @section('content')
@@ -163,10 +163,10 @@
 @stop
 
 @section('footer')
-<script src="{{asset('drag/drag.js')}}"></script>
-<script src="{{asset('drag/sort.js')}}"></script>
+<script src="{{secure_asset('drag/drag.js')}}"></script>
+<script src="{{secure_asset('drag/sort.js')}}"></script>
 <!-- PNotify -->
-<script src="{{asset('template/vendors/pnotify/dist/pnotify.js')}}"></script>
-<script src="{{asset('template/vendors/pnotify/dist/pnotify.buttons.js')}}"></script>
-<script src="{{asset('template/vendors/pnotify/dist/pnotify.nonblock.js')}}"></script>
+<script src="{{secure_asset('template/vendors/pnotify/dist/pnotify.js')}}"></script>
+<script src="{{secure_asset('template/vendors/pnotify/dist/pnotify.buttons.js')}}"></script>
+<script src="{{secure_asset('template/vendors/pnotify/dist/pnotify.nonblock.js')}}"></script>
 @stop

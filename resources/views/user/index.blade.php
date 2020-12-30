@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('header2')
-<link href="{{asset('template/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
+<link href="{{secure_asset('template/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
 @stop
@@ -254,11 +254,11 @@
 
 @section('footer2')
 <!-- bootstrap-daterangepicker -->
-<script src="{{asset('template/vendors/moment/min/moment.min.js')}}"></script>
-<script src="{{asset('template/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+<script src="{{secure_asset('template/vendors/moment/min/moment.min.js')}}"></script>
+<script src="{{secure_asset('template/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
 <!-- morris.js -->
-<script src="{{asset('template/vendors/raphael/raphael.min.js')}}"></script>
-<script src="{{asset('template/vendors/morris.js/morris.min.js')}}"></script>
+<script src="{{secure_asset('template/vendors/raphael/raphael.min.js')}}"></script>
+<script src="{{secure_asset('template/vendors/morris.js/morris.min.js')}}"></script>
 <!-- bootstrap-progressbar -->
-<script src="{{asset('template/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js')}}"></script>
+<script src="{{secure_asset('template/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js')}}"></script>
 @stop
