@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-    <title>Login Up to You</title>
+    <title>Login Blade</title>
 </head>
 
 <body>

@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Scaffold Bootstrap Template - Index</title>
+    <title>Scaffold Template</title>
     <meta content="" name="descriptison">
     <meta content="" name="keywords">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 
     <!-- Favicons -->
-    <link href="{{secure_asset('assets/img/favicon.png')}}" rel="icon">
-    <link href="{{secure_asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
+    <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
+    <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
     <!-- Dark Mode -->
     <!-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> -->
@@ -23,15 +23,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@600&display=swap" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{secure_asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{secure_asset('assets/css/style.css') }}" rel="stylesheet">
+    <link href="{{asset('assets/css/style.css') }}" rel="stylesheet">
 
     <!-- Jquary Library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -68,26 +68,6 @@
             <nav class="nav-menu d-none d-lg-block">
                 <ul>
                     <li class="active"><a href="index.html">Product</a></li>
-                    <li class="drop-down"><a href="">Learn</a>
-                        <ul>
-                            <li><a href="#about">About Us</a></li>
-                            <li><a href="#team">Team</a></li>
-                            <li><a href="#testimonials">Testimonials</a></li>
-                            <li class="drop-down"><a href="#">Deep Drop Down</a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                    <!-- <li><a href="#services">Services</a></li> -->
-                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-                    <li><a href="#pricing">Pricing</a></li>
-
                     <li><a href="/login">Login</a></li>
                     <button id="switchTheme" class="focus:outline-none w-4 h-4 mt-2 mr-3">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -109,7 +89,7 @@
             </div>
 
         </div>
-    </header><!-- End Header -->
+    </header>
 
 
     <!-- ======= Hero Section ======= -->
@@ -126,7 +106,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
-                    <img src="{{secure_asset('assets/img/hero-img.png')}}" class="w-9/12 ml-16" alt="">
+                    <img src="{{asset('assets/img/hero-img.png')}}" class="w-9/12 ml-16" alt="">
                 </div>
             </div>
         </div>
@@ -150,49 +130,49 @@
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in">
-                        <img src="{{ secure_asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
+                        <img src="{{asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-                        <img src="{{ secure_asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-                        <img src="{{ secure_asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-                        <img src="{{ secure_asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-                        <img src="{{ secure_asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-                        <img src="{{ secure_asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6">
                     <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-                        <img src="{{ secure_asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
                     <div class="client-logo">
-                        <img src="{{ secure_asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
+                        <img src="{{ asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
                     </div>
                 </div>
 
@@ -205,41 +185,6 @@
     </div> -->
 
     <main id="main" class="dark:bg-gray-800">
-
-        <!-- ======= About Section ======= -->
-        <!-- <section id="about" class="about">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="zoom-in">
-                        <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
-                    </div>
-                    <div class="col-lg-6 d-flex flex-column justify-contents-center" data-aos="fade-left">
-                        <div class="content pt-4 pt-lg-0">
-                            <h3>Manage everything
-                                in one workspace</h3>
-                            <p class="font-italic">
-                                Planning, tracking and delivering your team’s best work has never been easier
-                            </p>
-                            <ul>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.
-                                </li>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                                    aute irure dolor in reprehenderit in voluptate trideta storacalaperd</li>
-                            </ul>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                                voluptate tera noden carma palorp mades tera.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-        <!-- End About Section -->
-
 
 
         <!-- ======= Features Section ======= -->
@@ -281,7 +226,7 @@
                                 <figure>
                                     <!-- <img src="{{ asset('assets/img/features-1.png')}}" alt="" class="img-fluid"> -->
                                     <video width="550px" class="video" controls>
-                                        <source src="{{ secure_asset('assets/img/2.mp4') }}" type="video/mp4">
+                                        <source src="{{ asset('assets/img/2.mp4') }}" type="video/mp4">
                                     </video>
                                 </figure>
                             </div>
@@ -289,18 +234,18 @@
                                 <figure>
                                     <!-- <img src="{{ asset('assets/img/features-2.png')}}" alt="" class="img-fluid"> -->
                                     <video width="550px" class="video" controls>
-                                        <source src="{{ secure_asset('assets/img/3.mp4') }}" type="video/mp4">
+                                        <source src="{{ asset('assets/img/3.mp4') }}" type="video/mp4">
                                     </video>
                                 </figure>
                             </div>
                             <div class="tab-pane" id="tab-3">
                                 <figure>
-                                    <img src="{{ secure_asset('assets/img/features-3.png')}}" alt="" class="img-fluid">
+                                    <img src="{{ asset('assets/img/features-3.png')}}" alt="" class="img-fluid">
                                 </figure>
                             </div>
                             <div class="tab-pane" id="tab-4">
                                 <figure>
-                                    <img src="{{ secure_asset('assets/img/features-4.png')}}" alt="" class="img-fluid">
+                                    <img src="{{ asset('assets/img/features-4.png')}}" alt="" class="img-fluid">
                                 </figure>
                             </div>
                         </div>
@@ -384,10 +329,10 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{asset('click.png')}}" class="d-block w-100" alt="...">
+                            <img src="{{asset('images/sprint.png')}}" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{asset('click.png')}}" class="d-block w-100" alt="...">
+                            <img src="{{asset('images/sprint.png')}}" class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
                             <img src="..." class="d-block w-100" alt="...">
@@ -445,7 +390,7 @@
                             quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ asset('assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                     </div>
@@ -457,7 +402,7 @@
                             quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ asset('assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                     </div>
@@ -469,7 +414,7 @@
                             labore quem eram duis noster aute amet eram fore quis sint minim.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ asset('assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                     </div>
@@ -481,7 +426,7 @@
                             dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ asset('assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                     </div>
@@ -493,7 +438,7 @@
                             labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
-                        <img src="{{ secure_asset('assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ asset('assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
                     </div>
@@ -518,7 +463,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in">
-                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{ asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>Walter White</h4>
                                 <span>Chief Executive Officer</span>
@@ -534,7 +479,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>Sarah Jhonson</h4>
                                 <span>Product Manager</span>
@@ -550,7 +495,7 @@
 
                     <div class="col-lg-4 col-md-6">
                         <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="pic"><img src="{{ secure_asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
+                            <div class="pic"><img src="{{ asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt=""></div>
                             <div class="member-info">
                                 <h4>William Anderson</h4>
                                 <span>CTO</span>
@@ -584,49 +529,49 @@
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in">
-                            <img src="{{ secure_asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-1.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="100">
-                            <img src="{{ secure_asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-2.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="150">
-                            <img src="{{ secure_asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-3.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="{{ secure_asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-4.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-                            <img src="{{ secure_asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-5.png')}} " class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="{{ secure_asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-6.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6">
                         <div class="client-logo" data-aos="zoom-in" data-aos-delay="350">
-                            <img src="{{ secure_asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-7.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4 col-xs-6" data-aos="zoom-in" data-aos-delay="400">
                         <div class="client-logo">
-                            <img src="{{ secure_asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
+                            <img src="{{ asset('assets/img/clients/client-8.png')}}" class="img-fluid" alt="">
                         </div>
                     </div>
 
@@ -873,22 +818,22 @@
     <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ secure_asset('assets/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-    <script src="{{ secure_asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/venobox/venobox.min.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
-    <script src="{{ secure_asset('assets/vendor/aos/aos.js')}}"></script>
+    <script src="{{asset('assets/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{asset('assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+    <script src="{{asset('assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/venobox/venobox.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-    <script src="{{ secure_asset('typed.min.js')}}" type="text/javascript"></script>
+    <script src="{{asset('typed.min.js')}}" type="text/javascript"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ secure_asset('assets/js/main.js')}}"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 
     <!-- Typed Font  -->
-    <script src="{{ secure_asset('assets/js/typed.js')}}"></script>
+    <script src="{{asset('assets/js/typed.js')}}"></script>
 
     <!-- Dark Mode -->
     <script>

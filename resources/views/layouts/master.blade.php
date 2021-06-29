@@ -7,37 +7,40 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="{{secure_asset('template/production/images/favicon.ico')}}" type="image/ico" />
+  <link rel="icon" href="{{asset('template/production/images/favicon.ico')}}" type="image/ico" />
 
-  <title>Gentelella Alela! | </title>
+  <title>@yield('title')</title>
+  <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <!-- Bootstrap -->
   <link href="cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-  <link href="{{secure_asset('template/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/bootstrap/dist/css/bootstrap.min.css')}}" rel="stylesheet">
   <!-- Font Awesome -->
-  <link href="{{secure_asset('template/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet">
   <!-- NProgress -->
-  <link href="{{secure_asset('template/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/nprogress/nprogress.css')}}" rel="stylesheet">
   <!-- iCheck -->
-  <link href="{{secure_asset('template/vendors/iCheck/skins/flat/green.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/iCheck/skins/flat/green.css')}}" rel="stylesheet">
 
   <!-- bootstrap-progressbar -->
-  <link href="{{secure_asset('template/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css')}}" rel="stylesheet">
   <!-- JQVMap -->
-  <link href="{{secure_asset('template/vendors/jqvmap/dist/jqvmap.min.css')}}" rel="stylesheet" />
+  <link href="{{asset('template/vendors/jqvmap/dist/jqvmap.min.css')}}" rel="stylesheet" />
   <!-- bootstrap-daterangepicker -->
-  <link href="{{secure_asset('template/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/bootstrap-daterangepicker/daterangepicker.css')}}" rel="stylesheet">
   <!-- FullCalendar -->
-  <link href="{{secure_asset('template/vendors/fullcalendar/dist/fullcalendar.min.css')}}" rel="stylesheet">
-  <link href="{{secure_asset('template/vendors/fullcalendar/dist/fullcalendar.print.css')}}" rel="stylesheet" media="print">
+  <link href="{{asset('template/vendors/fullcalendar/dist/fullcalendar.min.css')}}" rel="stylesheet">
+  <link href="{{asset('template/vendors/fullcalendar/dist/fullcalendar.print.css')}}" rel="stylesheet" media="print">
   <!-- DataTable -->
   @yield('header')
   <!-- Style -->
   @yield('header2')
   @yield('header3')
+  @yield('header4')
+  @yield('header5')
 
   <!-- Custom Theme Style -->
-  <link href="{{secure_asset('template/build/css/custom.min.css')}}" rel="stylesheet">
+  <link href="{{asset('template/build/css/custom.min.css')}}" rel="stylesheet">
 </head>
 
 <body class="nav-md">
@@ -54,6 +57,7 @@
       <!-- page content -->
       @yield('content')
       <!-- /page content -->
+      @include('sweetalert::alert')
 
       <!-- footer content -->
       <footer>
@@ -89,30 +93,42 @@
   <script src="{{asset('template/vendors/fullcalendar/dist/fullcalendar.min.js')}}"></script>
   <!-- Flot -->
   <script src="{{asset('template/vendors/Flot/jquery.flot.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/Flot/jquery.flot.pie.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/Flot/jquery.flot.time.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/Flot/jquery.flot.stack.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/Flot/jquery.flot.resize.js')}}"></script>
+  <script src="{{asset('template/vendors/Flot/jquery.flot.pie.js')}}"></script>
+  <script src="{{asset('template/vendors/Flot/jquery.flot.time.js')}}"></script>
+  <script src="{{asset('template/vendors/Flot/jquery.flot.stack.js')}}"></script>
+  <script src="{{asset('template/vendors/Flot/jquery.flot.resize.js')}}"></script>
   <!-- Flot plugins -->
-  <script src="{{secure_asset('template/vendors/flot.orderbars/js/jquery.flot.orderBars.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/flot-spline/js/jquery.flot.spline.min.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/flot.curvedlines/curvedLines.js')}}"></script>
+  <script src="{{asset('template/vendors/flot.orderbars/js/jquery.flot.orderBars.js')}}"></script>
+  <script src="{{asset('template/vendors/flot-spline/js/jquery.flot.spline.min.js')}}"></script>
+  <script src="{{asset('template/vendors/flot.curvedlines/curvedLines.js')}}"></script>
   <!-- DateJS -->
-  <script src="{{secure_asset('template/vendors/DateJS/build/date.js')}}"></script>
+  <script src="{{asset('template/vendors/DateJS/build/date.js')}}"></script>
   <!-- JQVMap -->
-  <script src="{{secure_asset('template/vendors/jqvmap/dist/jquery.vmap.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/jqvmap/dist/maps/jquery.vmap.world.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js')}}"></script>
+  <script src="{{asset('template/vendors/jqvmap/dist/jquery.vmap.js')}}"></script>
+  <script src="{{asset('template/vendors/jqvmap/dist/maps/jquery.vmap.world.js')}}"></script>
+  <script src="{{asset('template/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js')}}"></script>
   <!-- bootstrap-daterangepicker -->
-  <script src="{{secure_asset('template/vendors/moment/min/moment.min.js')}}"></script>
-  <script src="{{secure_asset('template/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+  <script src="{{asset('template/vendors/moment/min/moment.min.js')}}"></script>
+  <script src="{{asset('template/vendors/bootstrap-daterangepicker/daterangepicker.js')}}"></script>
+  <!-- INputMask -->
+  <script src="{{asset('template/vendors/jquery.inputmask/dist/min/jquery.inputmask.bundle.min.js')}}"></script>
   <!-- DataTable -->
   @yield('footer')
   <!-- DatePicker -->
   @yield('footer2')
+  <!-- APICORONA -->
+  @yield('footer3')
+  <!-- PNotify -->
+  @yield('footer4')
+  <!-- ECHart -->
+  @yield('footer5')
+  <!-- DataTable -->
+  @yield('footer6')
+  <!-- Calendar -->
+  @yield('footer7')
 
   <!-- Custom Theme Scripts -->
-  <script src="{{secure_asset('template/build/js/custom.min.js')}}"></script>
+  <script src="{{asset('template/build/js/custom.min.js')}}"></script>
 
 </body>
 
